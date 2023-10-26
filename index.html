@@ -9,87 +9,123 @@
     <title>Cafeterias de BA</title>
   </head>
   <body>
-    <div class="container">
+    <div class="dom">
       <header>
-        <div class="container-header">
-          <h1>Café en Buenos Aires 2023</h1>
-          <h2>Un dato a tener en cuenta...</h2>
-          <div class="container-text">
-            <p>
-              El café no para de crecer en Argentina. En los últimos tres años,
-              el consumo de la infusión creció un 2,2%. Un informe de Nespresso
-              destaca que la infusión se toma mucho más en el ámbito hogareño y
-              también se amplió el target etario: se pudo ver a más jóvenes
-              comprando café para el hogar y animándome a probar nuevas recetas.
-              La bebida más consumida en el mundo después del agua es el café:
-              se toman 2 billones de tazas por día.
-            </p>
+        <div class="header-container">
+          <nav>
+            <ul class="ul-navbar">
+              <li>
+                <a href="#introduccion">Introduccion</a>
+              </li>
+              <li>
+                <a href="#influencers">Influencers</a>
+              </li>
+              <li>
+                <a href="#mapa">Mapas</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-body">
+            <div class="text-header">
+              <h1 class="title-main">Café en Buenos Aires 2023</h1>
+              <h2 class="text-h2" id="introduccion">
+                Un dato a tener en cuenta...
+              </h2>
+            </div>
+            <div class="img-header-coffee">
+              <img
+                src="/img/—Pngtree—spiral pull watercolor coffee_6243806.png"
+                alt=""
+                class="cup-coffee"
+              />
+            </div>
           </div>
-          <img
-            src="https://revistada.com/wp-content/uploads/2017/08/cafeterias-especialidad-paris-portada.jpg"
-            width="500px"
-            height="300px"
-            alt=""
-          />
         </div>
       </header>
       <main>
+        <div class="container-main-text">
+          <p>
+            El café no para de crecer en Argentina. En los últimos tres años, el
+            consumo de la infusión creció un 2,2%. Un informe de Nespresso
+            destaca que la infusión se toma mucho más en el ámbito hogareño y
+            también se amplió el target etario: se pudo ver a más jóvenes
+            comprando café para el hogar y animándome a probar nuevas recetas.
+            La bebida más consumida en el mundo después del agua es el café: se
+            toman 2 billones de tazas por día.
+          </p>
+        </div>
         <section>
-          <h2>Influencers foodie con recomendaciones diarias</h2>
-          <ul>
-            <li>
-              <a href="https://www.instagram.com/bsascoffeeshops/"
-                >bsascoffeeshops
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/buenospaladaires_/"
-                >buenospaladaires</a
-              >
-            </li>
-            <li>
-              <a href="https://www.instagram.com/estilodepiba/">estilodepiba</a>
-            </li>
-          </ul>
+          <div class="influencers">
+            <h2 class="text-h2" id="influencers">
+              Influencers foodie con recomendaciones diarias
+            </h2>
+            <div class="influencer-items">
+              <ul>
+                <li>
+                  <a href="https://www.instagram.com/bsascoffeeshops/"
+                    >bsascoffeeshops
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/buenospaladaires_/"
+                    >buenospaladaires</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/estilodepiba/"
+                    >estilodepiba</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
         </section>
         <section class="iframe-google">
-          <h2>Mapas de las cafeterias en la ciudad</h2>
+          <div class="title-map">
+            <h2 class="text-h2" id="mapa">
+              Mapas de las cafeterias en la ciudad
+            </h2>
+          </div>
           <iframe
             src="https://www.google.com/maps/d/embed?mid=1m7xjmltPZ8vAOs7HijSisyHEr4UHhyOv&ehbc=2E312F"
-            width="600"
-            height="400"
+            class="iframe-coffee"
           ></iframe>
         </section>
         <section>
-          <h2>Algunos servicios que brindamos:</h2>
-          <ul>
-            <li>
-              <a href="https://www.gatodumas.com.ar/curso-de-barismo"
-                >Curso de Barista y Arte Latte</a
-              >
-            </li>
-            <li>
-              <a href="https://www.centroargentinodebaristas.com/"
-                >Expecializacion cafe filtrado</a
-              >
-            </li>
-          </ul>
-          <img
-            src="img/11f014e771d79cf9b289a08ab967da2e.jpg"
-            alt="coffee"
-            class="class-img"
-          />
+          <div class="services-section">
+            <div class="services-title">
+              <h2 class="text-h2">Algunos servicios que brindamos:</h2>
+            </div>
+            <div class="course-list">
+              <ul>
+                <li>
+                  <a href="https://www.gatodumas.com.ar/curso-de-barismo"
+                    >Curso de Barista y Arte Latte</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.centroargentinodebaristas.com/"
+                    >Expecializacion cafe filtrado</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <img
+              src="img/11f014e771d79cf9b289a08ab967da2e.jpg"
+              alt="coffee"
+              class="class-img"
+            />
+          </div>
         </section>
         <section>
-          <div class="publicidad">
+          <div class="publicidad" id="publicidad">
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/dcW6veeqOsw?si=cHWMgmtT2PvaoW1M&amp;start=1"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
+              class="video-publicidad"
             ></iframe>
             <div class="img-publicidad">
               <a
@@ -106,7 +142,9 @@
         </section>
       </main>
       <footer>
-        <h3>Para mas informacion contactenos por las redes sociales</h3>
+        <div class="footer-text">
+          <h3>Para mas informacion contactenos por las redes sociales</h3>
+        </div>
         <div class="redes-sociales">
           <a href="http://www.instagram.com">
             <img src="img/instagram.png" alt="instagram" class="footer-img" />
